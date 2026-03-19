@@ -47,12 +47,12 @@ export function Navbar() {
           >
             <Menu className="h-6 w-6 md:h-5 md:w-5" />
           </button>
-          <div className="hidden lg:flex lg:items-center lg:gap-8">
+          <div className="hidden lg:flex lg:items-center lg:gap-14">
             {navLeft.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
-                className="text-xs font-medium uppercase tracking-[0.2em] text-white/90 transition hover:text-white"
+                className="text-[11px] font-medium uppercase tracking-[0.25em] text-white/90 transition hover:text-white"
               >
                 {item.label}
               </Link>
@@ -78,12 +78,12 @@ export function Navbar() {
 
         {/* Right: icons + optional nav on tablet/desktop */}
         <div className="flex items-center gap-2 sm:gap-3 md:gap-4 lg:gap-6">
-          <div className="hidden md:flex md:items-center md:gap-4 lg:gap-6">
+          <div className="hidden md:flex md:items-center md:gap-8 lg:gap-14">
             {navRight.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
-                className="text-xs font-medium uppercase tracking-[0.2em] text-white/90 transition hover:text-white"
+                className="text-[11px] font-medium uppercase tracking-[0.25em] text-white/90 transition hover:text-white"
               >
                 {item.label}
               </Link>
@@ -94,7 +94,7 @@ export function Navbar() {
               <select
                 value={currency}
                 onChange={(e) => setCurrency(e.target.value as Currency)}
-                className="cursor-pointer appearance-none border-0 bg-transparent py-2 pr-6 text-xs uppercase tracking-wider text-white/80 focus:outline-none focus:ring-0 [&>option]:bg-black [&>option]:text-white sm:py-1.5"
+                className="cursor-pointer appearance-none border-0 bg-transparent py-2 pr-6 text-[11px] uppercase tracking-wider text-white/80 focus:outline-none focus:ring-0 [&>option]:bg-black [&>option]:text-white sm:py-1.5"
                 aria-label="Select currency"
               >
                 {CURRENCIES.map((c) => (
@@ -137,7 +137,7 @@ export function Navbar() {
       >
         <div className="flex h-full flex-col pt-6">
           <div className="flex items-center justify-between px-4">
-            <span className="text-xs font-medium uppercase tracking-wider text-white/60">Menu</span>
+            <span className="text-[11px] font-medium uppercase tracking-wider text-white/60">Menu</span>
             <button
               type="button"
               onClick={() => setMenuOpen(false)}
