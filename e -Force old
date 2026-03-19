@@ -1,0 +1,150 @@
+[33m989dd43[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m merge conflivt about profile dropdown
+[33mcdac0a2[m fixed sections hidden by mobile optimization
+[33m409503d[m Fixed suspense issues
+[33m536efa9[m changed login toaster logic
+[33m09587b3[m Fixed package issues
+[33m0052482[m Added functionality where, when you click outside the profile popup it's closes
+[33m024ea97[m Removed any from the reset password
+[33mbc34887[m Imported image for payment mode
+[33m6f55675[m Removed unused functions and viariables
+[33m3704601[m Merge branch 'main' of https://github.com/perrykwarteng/lagen-shop
+[33mef6872f[m User Registration page
+[33m79401c2[m Login page
+[33m142e3e2[m reset password page
+[33md72c70e[m Forgot password page
+[33m908b86e[m Verification page
+[33mbe17a4a[m imported toaster and authContext
+[33mb2fdc03[m Checking If user is authenticated
+[33m6e8e53b[m loading component
+[33m9a55b5e[m Handles auth logic
+[33m5d47699[m loading animation
+[33m992ed21[m added toaster for notifications
+[33mb367537[m build error fixed with image import path regularization
+[33mec43eb8[m implemented mobile responsiveness
+[33m7e87d4f[m added a hover video to the collection on the nav
+[33ma0be051[m added a tooltip to the product card
+[33m1839c93[m made a 4 grid on lg screen and increased the size of trending text and boldened it
+[33m6fd9219[m removed borders
+[33m6176c87[m Placed nav in w full widht
+[33m5da7896[m Made the btn on the hero blury and the product highlight btn link to sections on the page
+[33m2bdbb6f[m testemonial section
+[33mae924d2[m Product highligh section
+[33m6b47780[m fix nav on shop
+[33md6e72bf[m removed rounder and contact us btn
+[33meaa2a7d[m updated heme page with sections
+[33m6e1f4fa[m added care section
+[33m3ca3aba[m added images
+[33m54ed8f2[m Added icons
+[33ma0161ea[m added btns to both hero section and product card
+[33m9f64a15[m added overlay and text to the slider
+[33ma18c2fb[m Shop nav
+[33m8b97019[m add the blurry background when the cart and profile is been clicked on
+[33m5b1ad70[m fixed the sub-nav full width
+[33m1298f2b[m removed brake line
+[33m5c527bf[m added a secondary heading
+[33mbcbde7d[m fixed active link
+[33m0bf4594[m added products to page
+[33m7e87aef[m added a seconed heading
+[33m4da34a3[m added links to respective pages
+[33m22f8c46[m sub pages for LB nexus
+[33m3e781b7[m active on shop nav
+[33m6716846[m shop
+[33me86d23c[m Added a shop page thta holds the shop nav
+[33m96ff447[m new nav changes
+[33md4d67f5[m Nav changes
+[33mfa94c34[m fixed navlist
+[33m9ed78e3[m account dashboard pages
+[33m0aeb18c[m added images
+[33m16dd4cb[m hover nav
+[33mb9be3ed[m made responsive changes
+[33md6152ea[m removed unused declearation
+[33m5f1bef6[m fixed
+[33m9655f81[m pointer
+[33mc545be7[m fixed nav and added subnav to the shop
+[33m5b7faf4[m remove image
+[33m87288d8[m added trending
+[33m1307164[m icons added
+[33m0b07d55[m added change menu to the navbar
+[33m4c6d402[m fixed
+[33m87442e4[m fixed menu
+[33m431c9fa[m Menu chages
+[33m9c9118f[m navbar media
+[33mdb15251[m change the animation duration
+[33ma1ac6b8[m update on ui
+[33m0dcdd72[m conditional loop in campaign page
+[33m4b52fbe[m changes menu style
+[33mda90244[m animation for scollling text to the left
+[33m2ad2238[m removed unused import
+[33mc641817[m changed lower case to upper
+[33me813f74[m added menu nav and update to the site
+[33mb092b56[m add des to the registration page
+[33m84e4647[m changed the video to logo
+[33mcdffc7c[m Added the right writeup
+[33m1fc84cd[m Changed nav and footer links
+[33m439d4c9[m Made changes
+[33m34edb57[m address changes
+[33mdc96490[m corrected the location
+[33m1f89d7f[m fixed liting error
+[33m1d25476[m made chages in layout page
+[33m5397a21[m checkout-receipt page
+[33m8b4671e[m checkout-payment page
+[33m416a847[m checkout page
+[33me6e5e46[m Added Icons
+[33m1fad12a[m updated link and copyright year
+[33m15fd655[m exchange page
+[33m412820f[m created a Faqs page and return exchage page
+[33mb8a1f88[m added images
+[33m4711d69[m created about page, contact, policy and terms page
+[33mc9982f6[m included the right links to it
+[33mb04f5d8[m Added icons and Image
+[33m4359c75[m changes margin top
+[33mae41586[m Added images
+[33m7b8615d[m added the payment mode
+[33m247035e[m fixed logo and space
+[33m0ac3003[m removed error i mport
+[33m6c23fcb[m fixed margin and Link issue
+[33m7f3c359[m fixed linting issues
+[33m16dc6e1[m fixed issue
+[33m750f140[m changes images
+[33m65bbede[m added images
+[33m49eec0c[m added images
+[33m86a33a6[m lookout page
+[33mb5a9aba[m campaign page
+[33maa883df[m added link to campaigns
+[33med44847[m Added Image for lookbook and campaign
+[33m287e1b3[m created a product card component
+[33m938e597[m added navs links
+[33mfb5f344[m updated the header component with a subtext
+[33m6ff3fce[m made changes to the width of the card
+[33m2edaf0b[m added cart feature to the layout component
+[33md37d126[m created sortheader and a delivery component
+[33m2bc0961[m wishlist page
+[33m7602dbe[m reward page
+[33me9dc16d[m collection sella page
+[33ma2d56f4[m collection page
+[33m5c85445[m Accessories page
+[33m335e85b[m fixed product card
+[33m0680fb3[m single faq component
+[33m35e93d4[m added icons and images
+[33m46ca4b0[m added video file and video in the login page
+[33md4e2188[m changed logo and currency
+[33ma39ba1c[m add a layout page for all pages to have both nav and footer
+[33mfd0bc07[m cursor pointer on both signin and register google btn
+[33m964e9ca[m fixed linting issue
+[33mc62ede9[m deleted page
+[33mc149a5f[m added page for the app
+[33m4752356[m fixed setProfile
+[33m2a7e984[m finished with the login and register page
+[33mf52f8b8[m worked on profile toggle
+[33md911e3e[m added icons
+[33mb5e23c9[m fixed linting issue
+[33m5310556[m update
+[33m0ea82d8[m created register and login page
+[33m733284a[m collection page
+[33ma028351[m sturturing home page with various components
+[33m000c95a[m added heading component, footer, navbar, newletter form,hero, productcard and subscription call to action
+[33mcb1c9aa[m set meta data and font family
+[33mc9a6100[m cleared global css
+[33mb086dd6[m added icon and images to the app
+[33m2a7b5ca[m add react icons and keen-slider package
+[33m5565438[m Initial commit from Create Next App
