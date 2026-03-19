@@ -9,10 +9,10 @@ const CURRENCIES = ["AUD", "USD"] as const;
 type Currency = (typeof CURRENCIES)[number];
 
 const navLeft = [
-  { label: "men.", href: "#" },
-  { label: "women.", href: "#" },
-  { label: "unisex.", href: "#" },
-  { label: "collection.", href: "#" },
+  { label: "shop all.", href: "/shop" },
+  { label: "collections.", href: "/collections" },
+  { label: "men.", href: "/shop?gender=men" },
+  { label: "women.", href: "/shop?gender=women" },
   { label: "coming soon.", href: "#" },
 ];
 

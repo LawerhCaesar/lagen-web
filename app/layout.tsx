@@ -3,6 +3,7 @@ import type { Viewport } from "next";
 import "./globals.css";
 import { PromoBanner } from "../components/PromoBanner";
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 export const metadata = {
   title: "Laegen",
@@ -20,12 +21,13 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-black text-white">
+      <body className="min-h-screen bg-black text-white flex flex-col">
         <PromoBanner />
         <Navbar />
-        <main className="flex flex-1 flex-col">
+        <main className="flex-1 flex flex-col">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
